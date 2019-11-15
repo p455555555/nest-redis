@@ -1,0 +1,68 @@
+{
+    "name": "@nest-public/nest-redis",
+    "version": "1.0.1",
+    "description": "nest.js框架Redis插件",
+    "main": "./index.js",
+    "files": [
+        "lib"
+    ],
+    "scripts": {
+        "build": "rm -rf ./lib && tsc",
+        "test": "jest"
+    },
+    "keywords": [
+        "nest",
+        "nest-redis",
+        "redis",
+        "node"
+    ],
+    "dependencies": {
+        "@nestjs/common": "^6.5.3",
+        "@nestjs/core": "^6.0.0",
+        "nestjs-redis": "^1.2.2",
+        "uuid": "^3.3.3",
+        "rxjs": "^6.5.3"
+    },
+    "devDependencies": {
+        "@nestjs/testing": "^6.9.0",
+        "@types/express": "^4.16.0",
+        "@types/jest": "^24.0.23",
+        "@types/node": "^10.12.18",
+        "@types/supertest": "^2.0.7",
+        "jest": "^24.9.0",
+        "reflect-metadata": "^0.1.13",
+        "supertest": "^4.0.2",
+        "ts-jest": "^24.1.0",
+        "ts-node": "^7.0.1",
+        "tsconfig-paths": "^3.7.0",
+        "typescript": "^3.2.4"
+    },
+    "jest": {
+        "moduleFileExtensions": [
+            "js",
+            "json",
+            "ts"
+        ],
+        "rootDir": "test",
+        "testRegex": ".test.ts$",
+        "transform": {
+            "^.+\\.(t|j)s$": "ts-jest"
+        },
+        "coverageDirectory": "../coverage",
+        "testEnvironment": "node"
+    },
+    "engines": {
+        "node": ">=8.0.0",
+        "npm": ">=5.6.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/p455555555/nest-redis.git"
+    },
+    "bugs": {
+        "url": "https://github.com/p455555555/nest-redis/issues"
+    },
+    "homepage": "https://github.com/p455555555/nest-redis",
+    "author": "chenjunhong <p455555555@gmail.com>",
+    "license": "MIT"
+}
